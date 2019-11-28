@@ -114,7 +114,7 @@ cc_library_static {
     },
     product_variables: {
         aosp: {
-            needs_netd_direct_connect_rule: {
+            target_needs_netd_direct_connect_rule: {
                 cflags: ["-DNEEDS_NETD_DIRECT_CONNECT_RULE"],
             },
         },
